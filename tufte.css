@@ -170,3 +170,16 @@ img {
         cursor: pointer;
     }
 }
+
+.photos {
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+}
+
+.photos div {
+    margin: 0.5rem;
+}

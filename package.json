@@ -1,0 +1,43 @@
+{
+  "name": "jakseberou",
+  "version": "1.0.0",
+  "description": "Our wedding page",
+  "main": "index.html",
+  "scripts": {
+    "bundle": "webpack",
+    "bundle:prod":  "webpack -p --progress --colors --devtool --define process.env.NODE_ENV=\\\"production\\\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machaj/jakseberou.git"
+  },
+  "keywords": [
+    "webpage"
+  ],
+  "author": "machaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/machaj/jakseberou/issues"
+  },
+  "homepage": "https://github.com/machaj/jakseberou#readme",
+  "dependencies": {
+    "image-preview": "0.0.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^1.9.10"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
